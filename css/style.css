@@ -1,0 +1,16 @@
+
+
+.bordaImg {
+    border-radius: 0px 0px 30px 30px
+}
+
+.bgColor {
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.712);
+    border-radius: 20px;
+}
+
+.relativoForm {
+    position: relative;
+    bottom: 60px;
+}

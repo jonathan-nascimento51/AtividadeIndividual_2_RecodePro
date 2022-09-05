@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Air Lines Vibes</title>
+  </head>
+
+  <body class="bg-dark">
+          <!--Navbar-->
+    <header class="p-3 bg-dark text-white sticky-top fixed-top" style="border-bottom: 5px solid grey;">
+      <div class="container-fluid">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="./principal.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+            <img src="../img/logo empresa.png" alt="logo avião" style="width: 50px;">
+          </a>
+    
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="padding-left: 17px;">
+            <li><a href="./principal.html" class="nav-link px-2 text-white" _msthash="1633359" _msttexthash="42250">Início</a></li>
+            <li><a href="./Promoções.html" class="nav-link px-2 text-white" _msthash="1633541" _msttexthash="313612">Promoções</a></li>
+            <li><a href="./Destinos.html" class="nav-link px-2 text-white" _msthash="1633723" _msttexthash="253617">Destinos</a></li>
+            <li><a href="./Contatos.html" class="nav-link px-2 text-white" _msthash="1633905" _msttexthash="429065">Contato</a></li>
+            <li><a href="./sobreNós.html" class="nav-link px-2 text-white" _msthash="1634087" _msttexthash="59826">Sobre Nós</a></li>
+          </ul>
+    
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input type="search" class="form-control form-control-dark text-white bg-dark" placeholder="Procurar..." aria-label="Procurar" _mstplaceholder="145353" _mstaria-label="116649">
+          </form>
+    
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2" _msthash="1717859" _msttexthash="59891">Entrar</button>
+            <button type="button" class="btn btn-light" _msthash="1718041" _msttexthash="179088">Cadastre-se</button>
+          </div>
+        </div>
+      </div>
+    </header>
+          <!--Fim Navbar-->
+
+          <!--Img com Texto-->
+    <figure class="container-fluid" style="margin: 0px; padding:0px;">
+      <img class="bordaImg" src="../img/foto-grande-noronha-07-2000x1333-11.jpg" style="width: 100%;">
+      <div class="absoluto">
+      </div>
+    </figure>
+          <!--Fim Img com texto-->
+
+          <!--Form de viagem-->
+    <section class="container bgColor relativoForm">
+      <div class="row justify-content-center" style="padding-top: 10px;">
+        <div class="col-2">   
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Econômico</option>
+            <option value="1">Luxo</option>
+            <option value="2">Extra Luxo</option>
+          </select>
+        </div>
+
+        <div class="col-2">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>1 Passageiro</option>
+            <option value="1">2 Passageiros</option>
+            <option value="2">3 Passageiros</option>
+          </select>
+        </div>
+      </div>
+        
+      <div class="row justify-content-center" style="padding-top: 10px;">
+        <div class="col-2">
+          <input type="text" class="form-control" id="specificSizeInputName" placeholder="Digite Destino">
+        </div>
+
+        <div class="col-2">
+          <input type="text" class="form-control" id="specificSizeInputName" placeholder="Digite Destino">
+        </div>
+              
+        <div class="col-2">
+          <div class="input-group">
+            <div class="input-group-text">Ida</div>
+            <input type="date" class="form-control" id="specificSizeInputGroupUsername" placeholder="Data">
+          </div>
+        </div>
+              
+        <div class="col-2">
+          <div class="input-group">
+            <div class="input-group-text">Volta</div>
+            <input type="date" class="form-control" id="specificSizeInputGroupUsername" placeholder="Data">
+          </div>
+        </div>
+              
+        <div class="col-2">
+          <button type="submit" class="btn btn-primary">Procurar...</button>
+        </div>
+      </div> 
+    </section>
+          <!--Fim Form de viagem-->
+
+          <!--Destinos mais visitados-->
+    <main class="container">
+      <h2 class="text-white" style="padding-bottom: 10px;">Destinos Mais Visitados:</h2>
+      <div class="row text-white" style="text-align: center;">
+        <div class="col-lg-4">
+          <img class="rounded" style="width: 200px; padding-bottom: 5px;" src="../img/bonito.img" alt="foto de bonito" width="140" height="140">
+          <h2>Bonito - MS</h2>
+          <p>Conhecida pelos rios de água translúcida, como o Rio da Prata, 
+               um destino repleto de peixes. 
+               O Abismo Anhumas é uma enorme caverna coberta de estalactites que permite a prática de rapel
+                e de mergulho num lago subterrâneo.
+          </p>
+          <p><a class="btn btn-light" href="#" role="button">Ver Mais »</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <img class="rounded" style="width: 200px; padding-bottom: 5px;" src="../img/pantanal.png" alt="foto do pantanal" width="140" height="140">
+          <h2>Pantanal - MS</h2>
+          <p>O Complexo do Pantanal, ou simplesmente Pantanal, é um bioma 
+              constituído principalmente por uma savana estépica, alagada em sua maior parte, 
+              com 250 mil quilômetros quadrados de extensão e uma altitude média de 100 metros.
+          </p>
+          <p><a class="btn btn-light" href="#" role="button">Ver Mais »</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <img class="rounded" style="width: 200px; padding-bottom: 5px;" src="../img/praia da pipa.png" alt="foto da praia da pipa" width="140" height="140">
+          <h2>Praia da Pipa - RN</h2>
+          <p>A Praia de Pipa é uma famosa praia localizada no município de Tibau do Sul,
+               capital do estado do Rio Grande do Norte, Brasil.
+                É o principal balneário do Litoral Sul do estado, que inclui ainda praias como Ponta do Madeiro
+                 e Praia do Amor.
+          </p>
+          <p><a class="btn btn-light" href="#" role="button">Ver Mais »</a></p>
+        </div>
+      </div>
+    </main>
+          <!--Fim destinos mais visitados-->
+
+          <!--Rodapé-->
+    <footer class="container-fluid row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-5 py-5 my-5 border-top text-white" style="height:200px; width: 100%;">
+      <div class="col mb-6"style="padding-left:40px;">
+        <a href="./principal.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+          <img src="../img/logo empresa.png" alt="logo empresa" style="width: 60px;">
+        </a>
+      </div>
+        
+      <div class="col mb-3">
+        
+      </div>
+        
+      <div class="col mb-3">
+        <h4 class="" _msthash="808288" _msttexthash="109447">PRODUTOS</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1243021" _msttexthash="42250">Transportes</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1243203" _msttexthash="313612">Passagens</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1243385" _msttexthash="253617">Hotéis</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1243567" _msttexthash="429065">Pacotes</a></li>
+        </ul>
+      </div>
+        
+      <div class="col mb-3">
+        <h4 _msthash="808496" _msttexthash="109447">LINKS ÚTEIS</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./Promoções.html" class="nav-link p-0 text-white" _msthash="1243346" _msttexthash="42250">Promoções</a></li>
+          <li class="nav-item mb-2"><a href="./Destinos.html" class="nav-link p-0 text-white" _msthash="1243528" _msttexthash="313612">Destinos</a></li>
+          <li class="nav-item mb-2"><a href="./Contatos.html" class="nav-link p-0 text-white" _msthash="1243710" _msttexthash="253617">Contato</a></li>
+          <li class="nav-item mb-2"><a href="./sobreNós.html" class="nav-link p-0 text-white" _msthash="1243892" _msttexthash="429065">Sobre nós</a></li>
+        </ul>
+      </div>
+        
+      <div class="col mb-3">
+        <h4 _msthash="808704" _msttexthash="109447">FALE-CONOSCO</h4>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1243671" _msttexthash="42250">Rua da liberdade - 4200 - RS</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1243853" _msttexthash="313612">jonathanturista@hotmail.com</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1244035" _msttexthash="253617">51 - 98264 9873</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white" _msthash="1244217" _msttexthash="429065">51 - 3334 5332</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="text-white" _msthash="769574" _msttexthash="39845" style="text-align: center;">© 2022 Copyright: Air Lines Vibes</p>
+      </div>
+    </footer>
+          <!--Fim Rodapé-->
+    
+          <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
